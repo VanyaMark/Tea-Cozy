@@ -7,14 +7,29 @@ body {
 }
 
 ul {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
+  color: seashell;
   margin: 0;
   padding: 0;
+  justify-content: space-around;
+}
+
+a {
+  color: seashell;
 }
 
 nav {
   height: 69px;
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  opacity: 0.9;
 }
 
 .logo {
@@ -22,4 +37,8 @@ nav {
   height: 50px;
   width: auto;
   opacity: 0.5;
+}
+
+.mission {
+  background-image: url("/images/img-mission-background.jpg");
 }
