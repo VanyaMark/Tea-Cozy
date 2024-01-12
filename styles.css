@@ -80,15 +80,19 @@ main {
 
 .tea {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  width: 1000px;
+  text-align: center;
 }
 
-.tea img {
+.teas-container img {
   width: 300px;
   height: 200px;
 }
 
-.tea-container {
+.teas-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .locations {
