@@ -79,7 +79,8 @@ main {
 }
 
 .tea {
-  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .tea img {
@@ -88,6 +89,9 @@ main {
 }
 
 .tea-container {
+}
+
+.locations {
   display: flex;
   flex-direction: row;
 }
