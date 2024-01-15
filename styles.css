@@ -105,8 +105,8 @@ main {
   flex-direction: row;
 }
 
-.locations {
-  background-image: url("/images/img-mission-background.jpg");
+.locations-container {
+  background-image: url("/images/img-locations-background.jpg");
   display: flex;
   align-items: center;
 }
