@@ -9,13 +9,13 @@ body {
 
 h2 {
   margin: 15px;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 h4 {
   margin: 10px;
   padding-top: 0px;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
 
 a {
   color: seashell;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 nav {
@@ -44,7 +44,7 @@ nav {
   position: fixed;
   background-color: black;
   border-bottom: 1px solid seashell;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 main {
@@ -123,4 +123,14 @@ main {
   background-color: black;
   text-align: center;
   opacity: 1;
+}
+
+.contact {
+  opacity: 0.9;
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  margin-left: 20px;
 }
